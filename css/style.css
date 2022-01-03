@@ -8,7 +8,7 @@
 }
 body {
     font-family: "Roboto", sans-serif;
-    
+    color: grey;
 }
 
 .list {
@@ -24,7 +24,14 @@ body {
     font-size: 26px;
     line-height: 1,19;
     letter-spacing: 0.03em;
-    color: var(--accent-color);
+    color: var(--header-color);
+}
+.header-logo-web {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);  
 }
 .header-link {
     font-weight: 500;
@@ -71,6 +78,22 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    cursor: pointer;
+    color: var(--btn-color);
+}
+.hero-list-btn {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: var(--second-title-color);
+}
+.hero-list-btn:hover, 
+.hero-list-btn:focus {
     color: var(--btn-color);
 }
 /* ----------ABOUT----------- */
@@ -101,6 +124,14 @@ body {
     color: var(--second-title-color);
 }
 /* ----------TEAM----------- */
+.our-team {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1,17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color);
+}
 .about-item-name {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -121,6 +152,21 @@ body {
     letter-spacing: 0.03em;
     color: var(--text-color);
 }
+/* ----------MENU----------- */
+.about-menu-item-name {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--second-title-color);
+}
+.about--menu-item-list {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1,87;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
 /* ----------FOOTER----------- */
 .footer {
     background-color: grey;
@@ -130,7 +176,16 @@ body {
     font-size: 26px;
     line-height: 1,19;
     letter-spacing: 0.03em;
+    color: var(--btn-color);
+    text-decoration: none;
+}
+.footer-name-web {
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
     color: var(--accent-color);
+    text-decoration: none;
 }
 .footer-link-adress {
     font-weight: normal;
