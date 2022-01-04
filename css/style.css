@@ -22,14 +22,14 @@ body {
 .header-logo {
     font-weight: bold;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--header-color);
 }
 .header-logo-web {
     font-weight: bold;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);  
 }
@@ -63,7 +63,7 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -73,20 +73,21 @@ body {
     font-family: inherit;
     font-weight: bold;
     font-size: 16px;
-    line-height: 1,88;
+    line-height: 1.88;
     display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
     color: var(--btn-color);
+    background: #2196F3;
 }
 .hero-list-btn {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,62;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
@@ -95,49 +96,43 @@ body {
 .hero-list-btn:hover, 
 .hero-list-btn:focus {
     color: var(--btn-color);
+    background: #2196F3;
 }
 /* ----------ABOUT----------- */
-.hero-item-title {
+.about-item-title {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--second-title-color);
 }
-.hero-item-text {
+.about-item-text {
     font-weight: normal;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--text-color);
 }
+/* ----------IMAGES----------- */
 .after-title {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
-    line-height: 1,17;
+    line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-title-color);
 }
 /* ----------TEAM----------- */
-.our-team {
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1,17;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--second-title-color);
-}
 .about-item-name {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,19;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-title-color);
@@ -147,23 +142,23 @@ body {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 1,19;
+    line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--text-color);
 }
 /* ----------MENU----------- */
-.about-menu-item-name {
+.portfolio-title {
     font-weight: bold;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--second-title-color);
 }
-.about--menu-item-list {
+.portfolio-text {
     font-weight: normal;
     font-size: 16px;
-    line-height: 1,87;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--text-color);
 }
@@ -174,7 +169,7 @@ body {
 .footer-name {
     font-weight: bold;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--btn-color);
     text-decoration: none;
@@ -182,22 +177,24 @@ body {
 .footer-name-web {
     font-weight: bold;
     font-size: 26px;
-    line-height: 1,19;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--accent-color);
     text-decoration: none;
 }
 .footer-link-adress {
+    font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--first-title-color);
 }
 .footer-link {
+    font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 1,71;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
